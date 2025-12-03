@@ -1,13 +1,11 @@
 from flask import Flask, jsonify
 import mysql.connector
 
-# ==== HARD-CODED SETTINGS (change here for your class) ====
-DB_HOST = "103.16.116.159"
+DB_HOST = "103.16.116.155"
 DB_PORT = 3306
-DB_USER = "devops"
+DB_USER = "react_daniel"
 DB_PASSWORD = "ubaya"
-DB_NAME = "movie"   # change if your DB name differs
-# ==========================================================
+DB_NAME = "react_daniel"  
 
 app = Flask(__name__)
 

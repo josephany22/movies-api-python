@@ -1,4 +1,4 @@
-const API_URL = "http://154.19.37.229:8001/movies";
+const API_URL = "http://154.19.37.229:8000/movies";
 
 async function loadMovies() {
   const res = await fetch(API_URL);
